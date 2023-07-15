@@ -2,7 +2,7 @@
 
 ## About Project
 
-This project employs a Machine Learning model to predict the yield of Blueberries given the temperature condition and pollinator density.
+This project employs a Machine Learning model to predict the yield of Blueberries given the temperature condition, pollinator density in that area, and some features of its clone.
 
 
 ## Dataset
@@ -22,7 +22,7 @@ This project employs a Machine Learning model to predict the yield of Blueberrie
 
 ## Model
 
-* This model aims to improve prediction accuracy through effective **feature engineering and feature selection** techniques. The main approach involves building an **ensemble model** that combines the predictions of three base models: 
+* This model aims to improve prediction accuracy through practical **feature engineering and feature selection** techniques. The primary approach involves building an **ensemble model** that combines the predictions of three base models: 
 
 	1\. LightGBM Regressor</br>
 	2\. XGBoost Regressor</br>
